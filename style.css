@@ -2617,6 +2617,8 @@ select.mobile-device {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.align h1{color:#bbb; font-weight:500;}
+
 /*bootstrap*/
 
 .timeline {
@@ -2737,20 +2739,33 @@ select.mobile-device {
     background-color: #2e6da4 !important;
 }
 
+.timeline-badge{
+    background: url('uploads/inaguration.png');
+    background-size:100% 100%;}
+
 .timeline-badge.success {
     background-color: #3f903f !important;
+    background: url('uploads/con.png');
+    background-size:100% 100%;
 }
 
 .timeline-badge.warning {
     background-color: #f0ad4e !important;
+    background: url('uploads/food.png');
+    background-size:100% 100%;
 }
 
 .timeline-badge.danger {
     background-color: #d9534f !important;
+    background: url('uploads/con.png');
+    background-size:100% 100%;
+
 }
 
 .timeline-badge.info {
     background-color: #5bc0de !important;
+    background: url('uploads/food.png');
+    background-size:100% 100%;
 }
 
 .timeline-title {
@@ -2802,3 +2817,108 @@ select.mobile-device {
             right: auto;
         }
 }
+
+.timeline-title{color:#000;}
+
+
+
+.third{
+    width:100%
+    float: left;
+    background:#fff;
+    padding:20px;
+    margin-top:5%;
+    border-radius:20px 0 20px 0;
+}
+
+.third h6{font-size:20px; text-align: center; padding:10px;}
+
+
+/*collapsible*/
+
+/*.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.active_col{
+  background-color: #555;
+    border-radius: 30px 0 30px 0;
+}
+
+ .collapsible:hover {
+  background-color: #555;}
+
+.content {
+  padding: 5%;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+    -webkit-transition: max-height 0.7s ease-out;
+    -moz-transition: max-height 0.7s ease-out;
+    -o-transition: max-height 0.7s ease-out;
+    -ms-transition: max-height 0.7s ease-out;
+  transition: max-height 0.7s ease-out;
+}*/
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.active_col{
+  background-color: #555;
+    border-radius: 30px 0 30px 0;
+}
+
+ .collapsible:hover {
+  background-color: #555;}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.7s ease-out;
+  background-color: #f1f1f1;
+}
+
+.content p{padding:3%;}
+
+/*table*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: none;}
+tr:nth-child(odd) {background-color: #999; color:#FFF;}
