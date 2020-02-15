@@ -2735,6 +2735,8 @@ select.mobile-device {
                 right: auto;
             }
 
+.timeline-badge img{opacity:0;}
+
 .timeline-badge.primary {
     background-color: #2e6da4 !important;
 }
@@ -2835,43 +2837,6 @@ select.mobile-device {
 
 
 /*collapsible*/
-
-/*.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-    -webkit-transition: all .7s ease-in-out;
-    -moz-transition: all .7s ease-in-out;
-    -o-transition: all .7s ease-in-out;
-    -ms-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
-}
-
-.active_col{
-  background-color: #555;
-    border-radius: 30px 0 30px 0;
-}
-
- .collapsible:hover {
-  background-color: #555;}
-
-.content {
-  padding: 5%;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-    -webkit-transition: max-height 0.7s ease-out;
-    -moz-transition: max-height 0.7s ease-out;
-    -o-transition: max-height 0.7s ease-out;
-    -ms-transition: max-height 0.7s ease-out;
-  transition: max-height 0.7s ease-out;
-}*/
 
 .collapsible {
   background-color: #777;
