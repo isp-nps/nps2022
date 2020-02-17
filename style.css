@@ -306,6 +306,7 @@ a img.aligncenter {
 .navbar-dark{
 	background-color: transparent;
 	transition: all 0.3s ease 0s;
+    float: left;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -356,7 +357,7 @@ a img.aligncenter {
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link.active{
-	color: #ffffff;
+	color: #999;
 }
 
 #mainNav.navbar-shrink .navbar-brand img{
@@ -1774,6 +1775,8 @@ hr.invis1 {
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
 }
+
+.text{text-transform: capitalize;}
 
 /*------------------------------------------------------------------
     Pricing
