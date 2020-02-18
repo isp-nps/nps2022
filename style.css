@@ -2750,7 +2750,7 @@ select.mobile-device {
 
 .timeline-badge.success {
     background-color: #3f903f !important;
-    background: url('uploads/con.png');
+    background: url('uploads/con1.png');
     background-size:100% 100%;
 }
 
@@ -2759,10 +2759,14 @@ select.mobile-device {
     background: url('uploads/food.png');
     background-size:100% 100%;
 }
-
+.timeline-badge.Thanks {
+    background-color: #062092 !important;
+    background: url('uploads/thanks.jfif');
+    background-size:100% 100%;
+}
 .timeline-badge.danger {
     background-color: #d9534f !important;
-    background: url('uploads/con.png');
+    background: url('uploads/con1.png');
     background-size:100% 100%;
 
 }
