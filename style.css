@@ -2900,3 +2900,37 @@ tr:nth-child(odd) {background-color: #999; color:#FFF;}
 
 .carousel.slide{height:400px; width:70%; margin:0px auto; box-shadow: 10px 10px 10px #555;}
 .carousel.slide img{height:400px; width:70%;}
+
+
+.col-carousel {
+	margin: 70px 0;
+}
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+	color: #FFF;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 50%;
+	height: 100%;
+}
+
+.owl-prev {
+	left: 7px;
+}
+
+.owl-next {
+	right: 7px;
+}
+
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
+}
