@@ -128,6 +128,9 @@
 	.footer-distributed .footer-left{
 		text-align: center;
 	}
+.carousel.slide{height:150px; width:70%; margin:0px auto; box-shadow: 10px 10px 10px #555;}
+.carousel.slide img{height:150px; width:70%;}
+
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	#mainNav {

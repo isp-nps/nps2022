@@ -2894,3 +2894,9 @@ th, td {
 
 tr:nth-child(even) {background-color: none;}
 tr:nth-child(odd) {background-color: #999; color:#FFF;}
+
+
+/*carousel*/
+
+.carousel.slide{height:400px; width:70%; margin:0px auto; box-shadow: 10px 10px 10px #555;}
+.carousel.slide img{height:400px; width:70%;}
