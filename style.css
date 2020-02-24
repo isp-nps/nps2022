@@ -1742,6 +1742,13 @@ hr.invis1 {
     text-transform: uppercase;
     margin: 0 0 5px 0;
 }
+.our-team .topic{
+    font-size: 22px;
+    font-weight: 700;
+   
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
 .our-team .post{
     display: block;
     font-size: 17px;
