@@ -2793,6 +2793,11 @@ select.mobile-device {
 .timeline-body > ul {
     margin-bottom: 0;
 }
+.timeline-body>p{
+    color: 
+    #28a9e2;
+
+}
 
     .timeline-body > p + p {
         margin-top: 5px;
