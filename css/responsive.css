@@ -201,3 +201,12 @@
 		visibility: hidden;
 		display: none;
 	}
+	#SpMain{
+		background-color: #333333;
+		visibility: hidden;
+		display: none;
+	}
+	.nView{
+		padding-top:0px;
+	}
+}

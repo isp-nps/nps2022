@@ -2946,3 +2946,6 @@ tr:nth-child(odd) {background-color: #999; color:#FFF;}
 button:focus, button:active {
    outline: none;
 }
+.nView{
+    padding-top:120px;
+}

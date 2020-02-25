@@ -159,12 +159,43 @@
 
 })(jQuery);
 $('.carousel-main').owlCarousel({
-	items: 1,
+	
 	loop: true,
 	autoplay: true,
 	autoplayTimeout: 3000,
-	margin: 10,
+    margin: 10,
+    height:$( window ).height()/5,
 	nav: true,
-	dots: false,
+    dots: false,
+    responsive: {
+        0: {
+          items: 1
+        },
+    
+        600: {
+          items: 3
+        },
+    
+        1024: {
+          items: 4
+        },
+    
+        1366: {
+          items: 4
+        }
+      },
+	navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+})
+
+$('.carousel-news').owlCarousel({
+	
+	loop: true,
+	autoplay: true,
+	autoplayTimeout: 3000,
+    margin: 10,
+    height:$( window ).height()/5,
+	nav: true,
+    dots: false,
+    items:1,
 	navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
 })
