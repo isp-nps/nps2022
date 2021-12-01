@@ -1218,7 +1218,7 @@
 	 * @param {Number} [speed] - The time in milliseconds for the transition.
 	 */
 	Owl.prototype.next = function(speed) {
-		speed = 7000|| false;
+		speed = speed|| false;
 		this.to(this.relative(this.current()) + 1, speed);
 	};
 
