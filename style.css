@@ -409,7 +409,10 @@ a img.aligncenter {
 }
 
 .heading h3{
-	color: ffffff;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 62px;
+	text-transform: capitalize;
 }
 
 .cd-words-wrapper {
