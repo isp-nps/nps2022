@@ -401,7 +401,12 @@ a img.aligncenter {
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 62px;
-	text-transform: capitalize;
+}
+.heading .heading1{
+	font-size: 40px;
+}
+.heading .heading3{
+	font-size: 30px;
 }
 .heading p{
 	font-size: 18px;
@@ -409,6 +414,7 @@ a img.aligncenter {
 }
 .heading h3{
 	color: #ffffff;
+	font-size: 20px;
 }
 .cd-words-wrapper {
   display: inline-block;
