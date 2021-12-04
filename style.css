@@ -828,6 +828,14 @@ xclip
 }
 
 
+/*------------------------------------------------------------------
+    COMMITTEES
+-------------------------------------------------------------------*/
+
+.committees{
+	background: url(images/bg.png) repeat top center #f2f3f5;
+}
+
 
 /*------------------------------------------------------------------
     PORTFOLIO
@@ -1733,12 +1741,14 @@ hr.invis1 {
     border-bottom-color: #1c142b;
     border-radius: 0 50%;
 }
+
 .our-team .pic img{
     width: 100%;
     height: auto;
     transition: all 0.5s ease 0s;
 }
-.our-team .team-content{ padding: 20px 0; }
+
+.our-team .team-content{225, 225, 225, 0.5}
 .our-team .title{
     font-size: 22px;
     font-weight: 700;
