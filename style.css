@@ -3050,3 +3050,8 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.25;
 }
+
+.sub {
+    font-size: 1.25rem;
+    color: #808080;
+}
