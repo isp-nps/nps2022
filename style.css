@@ -1722,6 +1722,18 @@ hr.invis1 {
 	text-align: center;
 }
 
+/*------------------------------------------------------------------
+    Special lecture
+-------------------------------------------------------------------*/
+
+.pic_{float:left; margin-right:20px;}
+
+.pic_ img{width:180px;}
+
+.special_block{width:60%;}
+.special_content{padding:20px;}
+.special_embed{width:35%; float:right; padding:3%;}
+
 
 /*------------------------------------------------------------------
     Our Team
