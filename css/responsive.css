@@ -249,4 +249,14 @@
 	.nView{
 		padding-top:0px;
 	}
+	
+	/*special div*/
+
+	.pic_{float:none; margin:0px auto; text-align:center;}
+
+	.pic_ img{width:90%;}
+	
+	.special_block{width:100%;}
+	.special_content{padding:10px; text-align:center;}
+	.special_embed{width:100%; float:none; padding:3%;}
 }
