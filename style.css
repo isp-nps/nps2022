@@ -439,9 +439,7 @@ a img.aligncenter {
 }
 
 /* -------------------------------- 
-
 xclip 
-
 -------------------------------- */
 .cd-headline.clip span {
   display: inline-block;
@@ -1721,6 +1719,15 @@ hr.invis1 {
 	display: inline-block;
 	text-align: center;
 }
+
+/*------------------------------------------------------------------
+    Inaguration
+-------------------------------------------------------------------*/
+
+.inaguration{width:100%; margin: 0px auto; padding:0 0 40px 0;}
+.inaguration_photo{width:50%; float:left;}
+.inaguration_video{width:50%; float:right; align-self: middle;}
+.inaguration_video iframe{width:30%; height:6%; position:absolute; float:right; margin:2% 0 2% 2%;}
 
 /*------------------------------------------------------------------
     Special lecture
