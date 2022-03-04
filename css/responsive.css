@@ -165,7 +165,7 @@
 	.inaguration{width:100%; margin: 0px auto; padding:0 0 40px 0;}
 	.inaguration_photo{width:40%; float:left;}
 	.inaguration_video{width:60%; float:right; align-self: middle;}
-	.inaguration_video iframe{width:30%; height:3%; position:absolute; float:right; margin:2% 0 2% 12%;}
+	.inaguration_video iframe{width:30%; height:5%; position:absolute; float:right; margin:2% 0 2% 2%;}
 
 }
 
@@ -253,8 +253,8 @@
 
 	.inaguration{width:100%; margin: 0px auto; padding:0 0 40px 0;}
 	.inaguration_photo{width:100%; padding:10px; float:none;}
-	.inaguration_video{width:100%; padding:10px; float:none; margin-bottom: 70%;}
-	.inaguration_video iframe{width:100%; height:100px; position:absolute; float:none; padding:30px; margin:0px auto;}
+	.inaguration_video{width:100%; padding:10px; float:none; margin-bottom: 30%;}
+	.inaguration_video iframe{width:100%; height:100px; position:absolute; float:none; padding:10px; margin:0px auto;}
 
 }
 @media (max-width: 767px) {
@@ -274,8 +274,8 @@
 
 	/*inaguration*/
 
-	.inaguration{width:100%; margin: 0px auto; padding:0 0 40px 0;}
+	.inaguration{width:100%; margin: 0px auto; padding:0 0 20px 0;}
 	.inaguration_photo{width:100%; padding:10px; float:none;}
-	.inaguration_video{width:100%; padding:10px; float:none; margin-bottom: 90%;}
-	.inaguration_video iframe{width:90%; height:2%; position:absolute; float:none; padding:10px; margin:0px auto;}
+	.inaguration_video{width:100%; padding:10px; float:none; margin-bottom: 40%;}
+	.inaguration_video iframe{width:90%; height:2%; position:absolute; float:none; padding:5px; margin:0px auto;}
 }
